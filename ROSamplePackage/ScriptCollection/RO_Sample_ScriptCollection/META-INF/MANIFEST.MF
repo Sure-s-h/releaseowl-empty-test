@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RO_Sample_ScriptCollection
+Bundle-SymbolicName: RO_Sample_ScriptCollection
+Bundle-Version: 1.0.1
+SAP-BundleType: ScriptCollection
+SAP-NodeType: IFLMAP
+Import-Package: org.osgi.framework
+Provide-Capability: scriptcollection.RO_Sample_ScriptCollection;version:
+ Version="1.0.1"
+Origin-Bundle-Name: RO_Sample_ScriptCollection
+Origin-Bundle-SymbolicName: RO_Sample_ScriptCollection
+

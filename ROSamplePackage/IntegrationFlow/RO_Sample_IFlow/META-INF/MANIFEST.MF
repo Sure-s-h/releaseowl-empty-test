@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: RO_Sample_IFlow
 Bundle-SymbolicName: RO_Sample_IFlow; singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
 SAP-RuntimeProfile: iflmap
@@ -30,4 +30,7 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.sap
  che.camel.processor.idempotent.jdbc,org.osgi.service.blueprint
 Origin-Bundle-Name: RO_Sample_IFlow
 Origin-Bundle-SymbolicName: RO_Sample_IFlow
+Require-Capability: scriptcollection.RO_Sample_ScriptCollection;resoluti
+ on:=optional;bundleType:String="ScriptCollection";source:String="refere
+ nce"
 
